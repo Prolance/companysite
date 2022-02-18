@@ -151,30 +151,30 @@ $(document).ready(function() {
 	/*============================================
 	Project Preview
 	==============================================*/
-	$('.project-item').click(function(e){
-		e.preventDefault();
+	// $('.project-item').click(function(e){
+	// 	e.preventDefault();
 
-		var elem = $(this),
-			title = elem.find('.project-title').text(),
-			descr = elem.find('.project-description').html(),
-			slidesHtml = '<ul class="slides">',
-			elemDataCont = elem.find('.project-description');
+	// 	var elem = $(this),
+	// 		title = elem.find('.project-title').text(),
+	// 		descr = elem.find('.project-description').html(),
+	// 		slidesHtml = '<ul class="slides">',
+	// 		elemDataCont = elem.find('.project-description');
 
-			slides = elem.find('.project-description').data('images').split(',');
+	// 		slides = elem.find('.project-description').data('images').split(',');
 
-		for (var i = 0; i < slides.length; ++i) {
-			slidesHtml = slidesHtml + '<li><img src='+slides[i]+' alt=""></li>';
-		}
+	// 	for (var i = 0; i < slides.length; ++i) {
+	// 		slidesHtml = slidesHtml + '<li><img src='+slides[i]+' alt=""></li>';
+	// 	}
 		
-		slidesHtml = slidesHtml + '</ul>';
+	// 	slidesHtml = slidesHtml + '</ul>';
 		
-		$('#project-title').text(title);
-		$('#project-content').html(descr);
-		$('#project-slider').html(slidesHtml);
+	// 	$('#project-title').text(title);
+	// 	$('#project-content').html(descr);
+	// 	$('#project-slider').html(slidesHtml);
 		
-		openProject();
+	// 	openProject();
 		
-	});
+	// });
 
 	function openProject(){
 		
