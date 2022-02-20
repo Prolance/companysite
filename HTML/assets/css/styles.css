@@ -405,10 +405,6 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
 --- Skills Styles ----
 -------------------------*/
 
-#skills{
-    background-color: #fff;
-}
-
 .skills-bars{
     position: relative;
     margin-top: 20px;
@@ -547,6 +543,7 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
 
 #projects-container {
     margin:0 auto;
+
     visibility:hidden;
 }
 
