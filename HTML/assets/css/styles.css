@@ -182,8 +182,8 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
 }
 
 #main-nav .navbar-brand img{
-    margin-right: 10px;
-    max-width: 60px;
+    margin-top: 5px;
+    max-width: 260px;
 }
 
 #main-nav .navbar-brand{
@@ -1312,11 +1312,15 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
         padding-top: 8px;
         font-size: 21px;
         color:#6d6d6d;
+        
     }
-    
+
     #main-nav .navbar-brand img{
-        margin-right: 10px;
-        max-width: 40px;
+        margin-top: 0px;
+    }
+
+    .container>.navbar-header, .container-fluid>.navbar-header, .container>.navbar-collapse, .container-fluid>.navbar-collapse {
+        margin-bottom: 10px;
     }
 
     #home .container{
