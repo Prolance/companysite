@@ -43,7 +43,9 @@
 		
 	</head>
   
-	<body data-spy="scroll" data-target="#main-nav" data-offset="200">
+	<body data-spy="scroll" data-target="#main-nav" data-offset="200"
+	onload="document.getElementById('year').innerText = new Date().getFullYear();"
+	>
 	
 		<!--=== PAGE PRELOADER ===-->
 		<div id="page-loader"><span class="page-loader-gif"></span></div>
@@ -126,7 +128,7 @@
 						
 						<p class="lead">a boutique software development shop from CHENNAI, INDIA. 
 							We specialize in strategic AI and blockchain consulting and solutions. Our services include both
-							foundation model and private blockchain development for both startups and enterprises.</p>
+							foundation model and private blockchain development for both startups and mid-size companies.</p>
 					
 					</div>
 				
@@ -202,9 +204,9 @@
 					
 						<h1 class="big-text">Our Expertise </h1>
 						
-						<p class="lead">We have worked with several crypto stratups with both public and private blockchains.</p>
+						<p class="lead">We have worked with several crypto  and AI stratups with both proprietary and OSS blockchains and models.</p>
 					
-						<p>Our specific skills include expertise in Bitcoin, PoW, Etheremum, PoS, Algorithmic Stablecoin, Crypto Exchanges, Asset Tokenization, Hyperledger Fiber, Besu, GO, Python, ReactJS, Storj, Terra, Avalanche, etc,.</p>
+						<p>Our specific skills include expertise in Bitcoin, PoW, Etheremum, PoS, Algorithmic Stablecoin, Crypto Exchanges, Asset Tokenization, GO, Python, ReactJS, Storj, Terra, Avalanche, Langchain, OpenAI, LLM, Claude, Mistral, Cohere and etc,.</p>
 					
 					</div>
 				
@@ -214,21 +216,20 @@
 						
 							<div class="skills-item skill1">
 								<span class="percent" data-percent="75">75%</span>
-								<p>Python</p>
+								<p>Bitcoin</p>
 							</div>
 							<div class="skills-item skill2">
 								<span class="percent" data-percent="70">70%</span>
-								<p>React.js</p>
+								<p>Gen AI</p>
 							</div>
 							<div class="skills-item skill3">
 								<span class="percent" data-percent="90">90%</span>
-								<p>Bitcoin</p>
+								<p>Blockchain</p>
 							</div>
 							<div class="skills-item skill4">
 								<span class="percent" data-percent="60">60%</span>
-								<p>Web3</p>
+								<p>LLM</p>
 							</div>
-							
 						</div>
 					
 					</div>
@@ -563,7 +564,7 @@
 		
 			<div class="container">
 				<p class="text-center">Prolance Consulting Services</p>
-				<p class="text-center">&copy; 2023 - All rights reserved</p>
+				<p class="text-center">&copy; <span id="year">0000</span> - All rights reserved</p>
 			</div>
 			
 		</footer>
